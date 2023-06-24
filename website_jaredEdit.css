@@ -1,0 +1,305 @@
+:root {
+    --blue: #198fc0;
+    --darkblue: #003249;
+    --grey: #c4c4c4;
+    --burntorange: #fd6a02;
+    --Bebas: 'Bebas Neue', cursive;
+    --Monts: 'Montserrat', sans-serif;
+    --Robo: 'Roboto', sans-serif;
+}
+
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--Robo);
+    overflow: visible;
+    background-color: #e2e2e2;
+}
+
+.navigation-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--darkblue);
+    color: var(--blue);
+    font-weight: bold;
+    padding: 1em 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+    .navigation-container > h1 {
+        font-size: 30x;
+        font-weight: bold;
+        margin: auto 0;
+    }
+
+    .navigation-container > nav > ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        padding: 0 16px;
+    }
+
+    .navigation-container a {
+        font-size: 20px;
+        text-decoration: none;
+        color: #198fc0;
+    }
+
+        .navigation-container a:hover {
+            color: white;
+        }
+
+.site-traverse li a {
+    margin: 1.5em;
+}
+
+.login-regis li a {
+    margin: .75em;
+}
+/* end nav styles */
+
+
+/* general form styling */
+.form {
+    background-image: url('/images/hartwickcampusbackground.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: none;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    height: 100vh;
+}
+
+form {
+    background-color: rgb(204, 204, 204, 0.7);
+    margin: 0 auto 0 auto;
+    padding: 1em 1em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-radius: 20px;
+}
+
+    form h1 {
+        color: black;
+        font-size: 22px;
+        align-self: center;
+    }
+
+    form label {
+        color: black;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    form input {
+        font-size: 18px;
+        border-radius: 5px;
+        padding: .25em;
+        margin: .5em 0;
+    }
+
+    form button {
+        width: 30%;
+        margin: 1em 0;
+        padding: .75rem 2rem;
+        font-size: 14px;
+        align-self: center;
+    }
+
+    form a, form p {
+        align-self: center;
+    }
+
+
+
+
+.profile {
+    background-color: var(--grey);
+}
+
+/* begin styling for main page */
+
+.main-cta {
+    background-image: linear-gradient(var(--darkblue),var(--grey));
+    text-align: center;
+    padding: 2rem;
+}
+
+    .main-cta h1, h2 {
+        font-weight: bold;
+        margin: 3rem 0;
+        color: white;
+        font-size: 40px;
+    }
+
+    .main-cta h1, h2 {
+        font-size: 32px;
+    }
+
+.intro {
+    background-color: var(--darkblue);
+    padding: 50px;
+    border-left: 5px solid #198fc0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro-text, .intro-video {
+    width: 40%;
+    color: white;
+    font-size: 30px;
+}
+
+.intro-text {
+    margin: 30px auto;
+}
+
+    .intro-text span {
+        color: var(--blue);
+    }
+
+
+
+.costs {
+    margin: 20px 0px;
+}
+
+    .costs h2 {
+        text-align: center;
+        color: var(--blue);
+        font-size: 40px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        padding: 20px 0;
+    }
+
+    .costs p {
+        text-align: center;
+        font-size: 12px;
+        margin: 15px;
+        padding: 10px 0;
+    }
+
+    .costs hr {
+        color: var(--blue);
+        width: 90%;
+    }
+
+.prices-section {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.student, .faculty {
+    width: 40%;
+    text-align: center;
+    border: 3px solid #198fc0;
+    border-radius: 20px;
+    margin: 0 20px;
+    color: #198fc0;
+    background-color: var(--darkblue);
+}
+
+    .student h3, .faculty h3 {
+        font-size: 25px;
+        padding: 0;
+        margin: 20px auto;
+    }
+
+.price-option {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: linear-gradient( to right, white, var(--grey));
+    margin: 20px 20px;
+    border-radius: 20px;
+    border-left: 5px solid #198fc0;
+}
+
+    .price-option h4 {
+        align-self: center;
+    }
+
+
+.instructors {
+    background-color: #003249;
+    position: relative;
+    top: 50px;
+}
+
+    .instructors h3 {
+        color: var(--blue);
+        font-size: 35px;
+        text-align: center;
+        margin: auto;
+        padding: 30px 0 10px;
+    }
+
+    .instructors p {
+        color: white;
+        text-align: center;
+        font-size: 16;
+        margin: auto;
+    }
+
+.team-section {
+    display: flex;
+    margin: auto;
+    padding: 50px 30px;
+}
+
+.team-member {
+    width: 200px;
+    margin: 20px;
+    color: white;
+}
+
+.image-container {
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+
+.team-member h4 {
+    font-size: 10px;
+    margin-left: 12%;
+    margin-bottom: 10px;
+}
+
+.team-member h5 {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 8px;
+    margin: 5px 0 0 10%;
+    text-align: left;
+}
+
+/*
+    Calendly Div
+*/
+
+.calendly-inline-widget {
+    padding: 10% 12.5%;
+    width: 75%;
+    height: 720px;
+}
+
+/* start css for exercises page */
+
+

@@ -1,0 +1,51 @@
+:root {
+        --blue: #198fc0;
+        --darkblue: #003249; 
+        --grey: #c4c4c4;
+        --burntorange:#fd6a02;
+        --Bebas: 'Bebas Neue', cursive;
+        --Monts: 'Montserrat', sans-serif;
+        --Robo: 'Roboto', sans-serif;
+}
+
+body{
+	background-color:var(--darkblue) ;
+	font-family:  var(--Monts);
+	font-size: 18px;
+	
+}
+
+h1{
+	text-align: center;
+}
+
+.content, h1{
+	border: 1px solid var(--blue);
+	border-radius: 30px;
+	padding-left: 2%;
+	background-color: var(--grey);
+	margin-bottom: 1%;
+	padding: 1%;
+	box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.4);
+}
+
+.instructions{
+	background-color: cyan;
+	
+}
+
+.content{
+	background-color: white;
+	color: black;
+	line-height: 150%;
+}
+
+li{
+	line-height: 120%;
+}
+
+p{
+	font-weight: bold;
+}
+
+

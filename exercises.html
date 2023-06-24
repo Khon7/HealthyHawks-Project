@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/website.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+        <title>Healthy Hawks </title>
+    </head>
+<body>
+  <div class="navigation-container">
+    <img src="images/logohh-smallcopy.png" alt="#"> <!--This will be replaced with an logo-->
+    <nav class="site-traverse">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#instructors">Instructors</a></li>
+        <li><a href="exercises.html">Exercises</a></li>
+      </ul>
+    </nav>
+    <nav class="login-regis">
+      <ul>
+          <li><a href="register.html">Login</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="hero">
+    <h1>Exercises</h1>
+  </div>
+  <div class="main">
+    <div class="filters">
+      <form>
+        <fieldset>
+          <legend>Filters</legend>
+          <label>
+            <input type="checkbox" name="chest" value="chest" class="filter-checkbox">
+            Chest
+          </label>
+          <label>
+            <input type="checkbox" name="arms" value="arms" class="filter-checkbox">
+            Arms
+          </label>
+          <label>
+            <input type="checkbox" name="back" value="back" class="filter-checkbox">
+            Back
+          </label>
+          <label>
+            <input type="checkbox" name="legs" value="legs" class="filter-checkbox">
+            Legs
+          </label>
+        </fieldset>
+      </form>
+    </div>
+    <section class="strength-exercises">
+      <h2>Strength Exercises</h2>
+      <div class="exercise-grid">
+        <div class="exercise chest">
+          <iframe src="https://www.youtube.com/embed/vthMCtgVtFw"  title="Athlean X Bench Press Tutorial" height="200"></iframe>
+          <h3>Bench Press</h3>
+          <p>The barbell bench press is a weightlifting exercise that primarly targets the chest while also targeting the shoulders, and triceps..</p>
+        </div>
+        <div class="exercise arms">
+          <iframe src="https://www.youtube.com/embed/vi1-BOcj3cQ"  title="Athlean X BW Dips Tutorial" height="200"></iframe>
+          <h3>BW Dips</h3>
+          <p>Bodyweight dips are a strength training exercise that primarly targets the triceps while also targeting chest, and shoulders.</p>
+        </div>
+        <div class="exercise back">
+          <iframe src="https://www.youtube.com/embed/T3N-TO4reLQ"  title="Athlean X Barbell Row Tutorial" height="200"></iframe>
+          <h3>Barbell Row</h3>
+          <p>The barbell row is a compound exercise that primarily targets the upper and middle back muscles, including the lats, rhomboids, traps, deltoids, and biceps</p>
+        </div>
+        <div class="exercise legs">
+          <iframe src="https://www.youtube.com/embed/q1fCgfieNEs"  title="Athlean X Back Squat Tutorial" height="200"></iframe>
+          <h3>Back Squat</h3>
+          <p>The barbell back squat is a weightlifting exercise that targets the lower body muscles, including the quadriceps, hamstrings, glutes, and lower back.</p>
+        </div>
+       
+        
+      </div>
+    </section>
+    
+  </div>
+  
+  <script src="js/exercises.js"></script>
+</body>
+</html>
